@@ -1,0 +1,40 @@
+body {
+  background-color: #222;
+}
+
+.game-container {
+  width: 350px;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+
+#question-container {
+  margin-bottom: 20px;
+}
+
+#choices {
+  margin-top: 20px;
+}
+
+#game-over {
+  color: #ff0000;
+}
+
+#start-game {
+  background-color: #28a745;
+}
+
+#restart-game {
+  background-color: #f0ad4e;
+}
+
+button:disabled {
+  background-color: #888;
+}
